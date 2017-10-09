@@ -9,7 +9,7 @@
             <Label x:Name="numero2" Text="2" VerticalOptions="Center" HorizontalOptions="Center" />
         </StackLayout>
 
-        <Entry x:Name="respuesta"></Entry>
+        <Entry x:Name="respuesta" Keyboard="Numeric"></Entry>
 
         <Button Text="Siguiente" Clicked="onBtnClicked"></Button>
     </StackLayout>

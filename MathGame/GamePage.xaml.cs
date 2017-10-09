@@ -15,6 +15,10 @@ namespace MathGame {
         private int randomNumber2;
 
         private Random random;
+
+		public GamePage() {
+			InitializeComponent();
+		}
         
         public GamePage(string nombre, int pageCounter) {
             this.pageCounter = pageCounter;
