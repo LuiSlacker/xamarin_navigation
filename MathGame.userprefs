@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{F196CE4F-12CA-49A1-8BC1-2A00681C5F40}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/Main.cs">
+    <Files>
+      <File FileName="MathGame/GamePage.xaml.cs" Line="19" Column="1" />
+      <File FileName="MathGame/GamePage.xaml" Line="12" Column="33" />
+      <File FileName="MathGame/MathGamePage.xaml" Line="18" Column="1" />
+      <File FileName="MathGame/MathGamePage.xaml.cs" Line="17" Column="1" />
+      <File FileName="MathGame/EmptyClass.cs" Line="1" Column="1" />
+      <File FileName="MathGame/Data.cs" Line="12" Column="2" />
+      <File FileName="MathGame/App.xaml" Line="7" Column="1" />
+      <File FileName="MathGame/App.xaml.cs" Line="8" Column="10" />
+      <File FileName="iOS/Main.cs" Line="21" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.MathGame.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B18269C8-1A81-460F-BE5B-0904F736875B">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.MathGame.iOS>
+</Properties>

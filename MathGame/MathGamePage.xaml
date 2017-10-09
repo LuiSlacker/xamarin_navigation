@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:MathGame" x:Class="MathGame.MathGamePage">
+	<Label Text="Welcome to Xamarin Forms!" VerticalOptions="Center" HorizontalOptions="Center" />
+    <StackLayout VerticalOptions="Center">
+        <Label Text="Ingrese su nombre" VerticalOptions="Center" HorizontalOptions="Center" />
+        <Entry x:Name="Nombre" Placeholder="Luis"></Entry>
+        <Picker x:Name="picker" Title="Cuantas veces?" SelectedItem="{Binding SelectedVeces}">
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                  <x:String>3</x:String>
+                  <x:String>5</x:String>
+                  <x:String>10</x:String>
+                </x:Array>
+            </Picker.ItemsSource></Picker>
+        <Button Text="Comenzar" Clicked="onBtnClicked"></Button>
+    </StackLayout>
+</ContentPage>
